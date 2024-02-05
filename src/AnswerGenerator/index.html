@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/assets/8ball.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Random Answer Ball</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Geo&family=Kantumruy+Pro:wght@200;300&family=Sue+Ellen+Francisco&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style/reset.scss">
+  <link rel="stylesheet" href="./style/style.scss">
+</head>
+
+<body>
+  <div class="container">
+    <div class="info">
+      <h1 class="title">Magic 8-Ball</h1>
+      <p class="subtitle">Ask a question, click the ball, know the truth.</p>
+    </div>
+    <div class="ball-img">
+      <img src="./assets/8ball.svg" alt="8 ball image" class="ball">
+    </div>
+    <div class="question-area">
+      <h2 class="inputHeader">Ask me a question:</h2>
+      <input type="text" class="questionInput" placeholder="Ask here..">
+      <p class="answer"></p>
+      <p class="error"></p>
+    </div>
+
+
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
