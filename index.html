@@ -1,13 +1,64 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bundle</title>
+  <link rel="stylesheet" href="./src/main.css">
+</head>
+
+<body>
+  <div id="app-container">
+    <h1 class="main-title">What project would you like to see?</h1>
+    <div class="projects-container">
+      <!-- Project one -->
+      <div class="project-container">
+        <a href="/src/AnswerGenerator/answer.html" class="project-link">
+          <img src="./src/AnswerGenerator/assets/ball.svg" alt="dice" class="project-icon">
+          <h1 class="project-title"> Answer Generator
+          </h1>
+        </a>
+      </div>
+      <!-- Project two -->
+      <div class="project-container">
+        <a href="/src/Bills&TipsCalculator/bills.html" path="/bills" class="project-link">
+          <img src="./src/Bills&TipsCalculator/assets/calculator.svg" alt="dice" class="project-icon">
+          <h1 class="project-title"> Bills & Tips Calculator
+          </h1>
+        </a>
+      </div>
+      <!-- Project three -->
+      <div class="project-container">
+        <a href="/src/FormValidator/form.html" class="project-link">
+          <img src="./src/FormValidator/assets/form.svg" alt="dice" class="project-icon">
+
+          <h1 class="project-title"> Form Validator
+          </h1>
+        </a>
+      </div>
+      <!-- Project four -->
+      <div class="project-container">
+        <a href="/src/SmallBrowser/browser.html" class="project-link">
+          <img src="./src/SmallBrowser/assets/browser.svg" alt="dice" class="project-icon">
+
+          <h1 class="project-title"> Small Browser
+          </h1>
+        </a>
+      </div>
+      <!-- Project five -->
+      <div class="project-container">
+        <a href="/src/StopWatch/stopwatch.html" class="project-link">
+          <img src="./src/StopWatch/assets/stopwatch.svg" alt="dice" class="project-icon">
+
+          <h1 class="project-title"> Stopwatch
+          </h1>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
